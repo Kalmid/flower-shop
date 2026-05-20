@@ -301,9 +301,9 @@ body{
 }
 
 .sale-badge{
-  background:#ff4d6d;
+  background:#222; 
 }
 
 .sold-badge{
-  background:#222;
+  background:#ff4d6d;
 }
