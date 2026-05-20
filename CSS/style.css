@@ -33,7 +33,7 @@ body{
   font-size:18px;
 }
 
-.hero-section{
+.slider-section{
   background:#f7f7f7;
   padding:80px 0;
 }
@@ -44,13 +44,13 @@ body{
   margin-bottom:10px;
 }
 
-.hero-title{
+.slider-title{
   font-size:60px;
   font-weight:700;
   margin-bottom:20px;
 }
 
-.hero-description{
+.slider-description{
   color:#666;
   margin-bottom:30px;
 }
@@ -68,7 +68,7 @@ body{
   color:white;
 }
 
-.hero-image{
+.slider-image{
   max-width:100%;
 }
 
@@ -79,7 +79,7 @@ body{
     font-size:40px;
   }
 
-  .hero-section{
+  .slider-section{
     text-align:center;
   }
 
