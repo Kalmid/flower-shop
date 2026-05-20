@@ -127,7 +127,7 @@ body{
 .section-title h2{
   font-size:40px;
   font-weight:700;
-  
+
 }
 
 .product-card{
@@ -166,20 +166,37 @@ body{
 
 /* promo */
 
+.promo-section{
+  background:#fff;
+}
+
+.promo-image{
+  border-radius:20px;
+}
+
 .promo-title{
-  font-size:45px;
-  font-weight:500;
+  font-size:42px;
+  font-weight:700;
   margin-bottom:20px;
 }
 
-.promo-description {
+.promo-text{
   list-style-type: disc; 
-  color:black;
-  margin-bottom:15px;
+  color:#666;
+  margin-bottom:30px;
+  line-height:1.8;
 }
 
-.slider-image{
-  max-width:70%;
+@media(max-width:768px){
+
+  .promo-title{
+    font-size:32px;
+  }
+
+  .promo-section{
+    text-align:center;
+  }
+
 }
 
 /* FEATURED */
