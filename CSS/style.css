@@ -170,6 +170,23 @@ body{
 
 }
 
+/* BLOG FOOTER */
+
+.blog-footer{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-top:15px;
+}
+
+.blog-comments{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  color:#777;
+  font-size:14px;
+}
+
 .product-card{
   border-radius:16px;
   overflow:hidden;
