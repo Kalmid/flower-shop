@@ -47,3 +47,5 @@ project-folder/
 2. Open the project folder
 3. Run index.html in your browser
 
+## Live Demo
+https://deluxe-cheesecake-c789ba.netlify.app/
