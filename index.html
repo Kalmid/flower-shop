@@ -1,9 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <title>Flower Shop</title>
 
   <link
@@ -40,7 +37,7 @@
         <span class="logo-icon">
           <i class="fa-regular fa-gem"></i>
         </span>
-        Kngtu.
+        Kngu.
       </a>
 
       <button
@@ -60,19 +57,25 @@
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
               SHOP
             </a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">All Products</a></li>
+              <li><a class="dropdown-item" href="#">Flowers</a></li>
+              <li><a class="dropdown-item" href="#">Bouquets</a></li>
+            </ul>
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
               BLOG
             </a>
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
               PAGES
             </a>
           </li>
@@ -155,39 +158,52 @@
 
       <div class="row text-center g-4">
 
-
         <div class="col-md-3 col-sm-6">
-          <div class="feature-box">
-            <i class="fa-solid fa-truck-fast"></i>
-            <h5>Free Delivery</h5>
-            <p>Free shipping around the world for all orders over $120</p>
+          <div class="feature-box row">
+            <div class="col-lg-6">
+              <i class="fa-solid fa-truck-fast"></i>
+            </div>
+            
+            <div class="col-lg-6">
+              <h5>Free Delivery</h5>
+              <p>Free shipping around the world for all orders over $120</p>
+            </div>
           </div>
         </div>
 
-
         <div class="col-md-3 col-sm-6">
-          <div class="feature-box">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <h5>Online Order</h5>
-            <p>Don't worry you can order Online by our Site</p>
+          <div class="feature-box row">
+            <div class="col-lg-6">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="col-lg-6">
+              <h5>Online Order</h5>
+              <p>Don't worry you can order Online by our Site</p>
+            </div>
           </div>
         </div>
 
-
         <div class="col-md-3 col-sm-6">
-          <div class="feature-box">
-            <i class="fa-solid fa-seedling"></i>
-            <h5>Freshness</h5>
-            <p>You have freshness flowers every single order</p>
+          <div class="feature-box row">
+            <div class="col-lg-6">
+              <i class="fa-solid fa-seedling"></i>
+            </div>
+            <div class="col-lg-6">
+              <h5>Freshness</h5>
+              <p>You have freshness flowers every single order</p>
+            </div>
           </div>
         </div>
-
         
         <div class="col-md-3 col-sm-6">
-          <div class="feature-box">
-            <i class="fa-solid fa-palette"></i>
-            <h5>Made By Artists</h5>
-            <p>World for all made by artists orders over now</p>
+          <div class="feature-box row">
+            <div class="col-lg-6">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <div class="col-lg-6">
+              <h5>Made By Artists</h5>
+              <p>World for all made by artists orders over now</p>
+            </div>
           </div>
         </div>
 
@@ -204,7 +220,8 @@
 
       <div class="section-title text-center mb-5">
         <h2>New Products</h2>
-        <p class="small-text">A perfect blend of creativity, energy, communication, happiness and love. Let us arrange a smile for you.</p>
+        <p class="small-text">A perfect blend of creativity, energy, communication, happiness and love. Let us <br>
+          arrange a smile for you.</p>
       </div>
 
       <div class="row g-4">
@@ -388,7 +405,7 @@
           </h2>
 
           <p class="small-text">
-            Where flowers are our inspiration to create lasting memories. Whatever the occasion inspiration to create lasting memories...
+            Where flowers are our inspiration to create lasting memories. Whatever the <br> occasion inspiration to create lasting memories...
           </p>
 
           <ul class="promo-list">
@@ -416,7 +433,7 @@
       <div class="section-title text-center mb-5">
         <h2>Featured Items</h2>
         <p class="small-text">
-          A perfect blend of creativity, energy, communication, happiness and love. Let us arrange a smile for you.
+          A perfect blend of creativity, energy, communication, happiness and love. Let us <br> arrange a smile for you.
         </p>
       </div>
 
@@ -1019,7 +1036,7 @@
 
             <hr class="mt-4">
 
-            <div class="footer row align-items-center">
+            <div class="footer-bottom row align-items-center">
               <p class="col-lg-6 text-small">
                 Copyright 2026. All Rights Reserved.
               </p>

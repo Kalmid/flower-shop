@@ -65,7 +65,7 @@ body{
 .dropdown-toggle::after{
   margin-left:6px;
   vertical-align:middle;
-  font-size:10px;
+  font-size:20px;
 }
 
 .search-box{
@@ -172,7 +172,7 @@ body{
 }
 
 .slider-title{
-  font-size:60px;
+  font-size:50px;
   font-weight:700;
   margin-bottom:20px;
 }
@@ -437,24 +437,17 @@ body{
 
 .tab-btn{
   border:none;
-  background:#fff;
+  color:#ff4d6d;
+  background:#f9f9f9;
   padding:10px 24px;
-  border-radius:30px;
   font-weight:500;
-  transition:0.3s;
-  border:1px solid #ddd;
-}
-
-.tab-btn:hover{
-  background:#ff4d6d;
-  color:#fff;
-  border-color:#ff4d6d;
+  border:0px solid #ddd;
 }
 
 .active-btn{
-  background:#ff4d6d;
-  color:#fff;
-  border-color:#ff4d6d;
+  background: #f9f9f9;
+  border-color:white;
+  text-decoration:underline;
 }
 
 /* Slider*/
@@ -568,8 +561,6 @@ body{
 
 .subscribe-btn{
   color:black;
-  padding:12px 28px;
-  border-radius:30px;
   font-weight:600;
 }
 
@@ -598,13 +589,13 @@ body{
 
 .footer-container {
   display: flex;
-  justify-content: space-between; /* logo left, sections right */
-  align-items: flex-start;        /* align tops */
-  gap: 3rem;                      /* spacing between logo and links */
+  justify-content: space-between; 
+  align-items: flex-start;        
+  gap: 3rem;                      
 }
 
 .footer-brand {
-  flex: 1; /* logo/description takes one column */
+  flex: 1;
 }
 
 .footer-sections {
