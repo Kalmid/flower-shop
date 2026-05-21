@@ -22,6 +22,7 @@ body{
   color:#222;
   font-weight:500;
   margin:0 10px;
+  transition:0.3s;
 }
 
 .nav-link:hover{
@@ -31,6 +32,10 @@ body{
 .nav-icons i{
   cursor:pointer;
   font-size:18px;
+}
+
+.container{
+  max-width:1200px;
 }
 
 .slider-section{
@@ -75,7 +80,7 @@ body{
 /* Responsive */
 @media(max-width:768px){
 
-  .hero-title{
+  .slider-title{
     font-size:40px;
   }
 
@@ -118,7 +123,6 @@ body{
 }
 
 /* PRODUCTS */
-/* PRODUCTS SECTION */
 
 .products{
   background:#f9f9f9;
@@ -180,11 +184,10 @@ body{
   margin-bottom:20px;
 }
 
-.promo-text{
-  list-style-type: disc; 
+.promo-list{
   color:#666;
+  line-height:2;
   margin-bottom:30px;
-  line-height:1.8;
 }
 
 @media(max-width:768px){
@@ -220,6 +223,7 @@ body{
 }
 
 .featured-card{
+  position:relative;
   background:#fff;
   border-radius:16px;
   overflow:hidden;
