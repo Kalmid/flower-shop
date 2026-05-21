@@ -43,7 +43,7 @@ project-folder/
 
 ## How to Run the Project
 1. Download or clone the repository
-   git clone <your-github-repository-link>
+   git clone https://github.com/Kalmid/flower-shop.git
 2. Open the project folder
 3. Run index.html in your browser
 
