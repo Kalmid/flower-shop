@@ -4,8 +4,13 @@
   box-sizing:border-box;
 }
 
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+
 body{
-  font-family:'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .top-bar{
@@ -21,7 +26,7 @@ body{
 .nav-link{
   color:#222;
   font-weight:500;
-  margin:0 10px;
+  margin:0 8px;
   transition:0.3s;
 }
 
@@ -34,13 +39,44 @@ body{
   font-size:18px;
 }
 
-.container{
-  max-width:1200px;
-}
+/* .container{
+  max-width:1300px;
+} */
 
 .slider-section{
   background:#f7f7f7;
-  padding:80px 0;
+  padding:60px 0;
+  position: relative;
+}
+
+.slider-arrow{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  width:45px;
+  height:45px;
+  border:none;
+  border-radius:50%;
+  background:#fff;
+  color:#222;
+  font-size:18px;
+  cursor:pointer;
+  z-index:20;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+
+.slider-arrow:hover{
+  background:#ff4d6d;
+  color:#fff;
+}
+
+.left-arrow{
+  left:20px;
+}
+
+.right-arrow{
+  right:20px;
 }
 
 .small-text{
@@ -318,6 +354,57 @@ body{
   border-color:#ff4d6d;
 }
 
+/* Slider*/
+.testimonial {
+  position: relative;
+  background-color: #f5f0e8; 
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.testimonial::before,
+.testimonial::after {
+  content: "";
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.testimonial::before {
+  bottom: 0;
+  left: 0;
+  background-image: url('../images/tulip1.jpg');
+  width: 250px;
+  height: 368px;
+}
+
+.testimonial::after {
+  top: 0;
+  right: 0;
+  background-image: url('../images/tulip3.jpg');
+  width: 246px;
+  height: 390px;
+}
+
+
+
+.testimonial .quote {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.testimonial .author-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+
 /* PRODUCT BADGES */
 
 .product-card{
@@ -388,7 +475,41 @@ body{
 }
 
  .text{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 400;
   font-size: 50px;
+}
+
+.footer p{
+  text-align:left;
+}
+
+.footer img{
+  position:relative;
+  background:#fff;
+  border-radius:2px;
+  overflow:hidden;
+  width:50px;
+  height:35px;
+  object-fit:cover;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between; /* logo left, sections right */
+  align-items: flex-start;        /* align tops */
+  gap: 3rem;                      /* spacing between logo and links */
+}
+
+.footer-brand {
+  flex: 1; /* logo/description takes one column */
+}
+
+.footer-sections {
+  display: flex;
+  flex: 3;
+  justify-content: space-between; 
+  gap: 2rem;
+}
+.footer-sections > div {
+  flex: 1; 
 }
