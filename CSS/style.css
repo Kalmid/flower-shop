@@ -168,6 +168,38 @@ body{
   font-size:14px;
 }
 
+.countdown-box{
+  position:absolute;
+  top:15px;
+  right:15px;
+  z-index:10;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+.time-box{
+  background:#fff;
+  width:40px;
+  padding:8px 5px;
+  text-align:center;
+  border-radius:8px;
+  box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.time-box span{
+  display:block;
+  font-size:16px;
+  font-weight:700;
+  color:#222;
+}
+
+.time-box small{
+  font-size:11px;
+  color:#777;
+  font-weight:800;
+}
+
 /* promo */
 
 .promo-section{
@@ -310,4 +342,49 @@ body{
 
 .sold-badge{
   background:#ff4d6d;
+}
+
+/* Second blog*/
+
+.blog-card{
+  position:relative;
+  background:#fff;
+  border-radius:16px;
+  overflow:hidden;
+}
+
+.blog-card img{
+  width:100%;
+  height:280px;
+  object-fit:cover;
+}
+
+.blog-content{
+  padding:20px;
+  text-align:center;
+}
+
+.blog-content h5{
+  font-weight:600;
+  margin-bottom:10px;
+}
+
+.blog-content p{
+  color:#ff4d6d;
+  font-weight:600;
+}
+
+/* Newsletter */
+
+.shop-btn{
+  background:#ff4d6d;
+  color:white;
+  padding:12px 28px;
+  border-radius:30px;
+  font-weight:600;
+}
+
+.shop-btn:hover{
+  background:#e63e5c;
+  color:white;
 }
